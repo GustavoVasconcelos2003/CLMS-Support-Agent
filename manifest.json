@@ -1,0 +1,32 @@
+{
+  "scripts": [
+    {
+      "name": "Global_test",
+      "version": "1.4",
+      "path": "SCRIPTS\\GLOBAL\\global_test.ps1",
+      "type": "powershell",
+      "targets": ["*"]
+    },
+     {
+      "name": "Zabbix_install",
+      "version": "1.0",
+      "path": "SCRIPTS\\GLOBAL\\install_zabbix.ps1",
+      "type": "powershell",
+      "targets": ["*"]
+    },
+    {
+      "name": "lab1_test",
+      "version": "1.2",
+      "path": "SCRIPTS\\TEST\\LAB1\\lab1_test.ps1",
+      "type": "powershell",
+      "targets": ["TEST:LAB1"]
+    },
+    {
+      "name": "lab2test",
+      "version": "1.2",
+      "path": "SCRIPTS\\TEST\\LAB2\\lab2_test.ps1",
+      "type": "powershell",
+      "targets": ["TEST:LAB2"]
+    }
+  ]
+}
